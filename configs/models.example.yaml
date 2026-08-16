@@ -1,0 +1,25 @@
+schema_version: "1.0"
+model_id: "FML-MODEL-EXAMPLE"
+display_name: "Example local model"
+family: "sdxl"
+role: "checkpoint"
+local_file:
+  path_env: "FML_MODEL_PATH"
+  filename: "example.safetensors"
+  sha256: "REPLACE_WITH_64_HEX_CHARACTERS"
+source:
+  url: "https://example.invalid/model-card"
+  publisher: "REPLACE"
+  retrieved_at_utc: "REPLACE"
+license:
+  identifier: "UNVERIFIED"
+  evidence_url: "https://example.invalid/license"
+  commercial_use: false
+  redistribution: false
+compatibility:
+  runtime: "REPLACE"
+  minimum_vram_gb: null
+status: "BLOCKED_UNTIL_VERIFIED"
+notes:
+  - "Do not commit the model file."
+  - "A filename is not proof of provenance or license."
