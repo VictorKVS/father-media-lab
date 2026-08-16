@@ -8,5 +8,8 @@ version = "0.1.0"
 description = "Evidence-driven image and video generation laboratory"
 requires-python = ">=3.11"
 
+[project.scripts]
+father-media-lab = "father_media_lab.cli:main"
+
 [tool.setuptools.packages.find]
 where = ["src"]
