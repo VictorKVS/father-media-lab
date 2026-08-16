@@ -64,6 +64,19 @@ python -m unittest discover -s tests -v
 
 The initial package intentionally performs no model download and no remote generation.
 
+### Inventory local model weights
+
+The scanner hashes model files without executing them, follows no symlinks and
+stores relative paths only:
+
+```powershell
+python -m father_media_lab inventory-models `
+  --root "G:\1\Прежде\1_izobraznie\AI" `
+  --output local-runs\model-inventory.json
+```
+
+Every discovered model remains blocked until provenance and license are verified.
+
 ### Offline criteria prototype
 
 ```powershell
