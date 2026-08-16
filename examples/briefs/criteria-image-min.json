@@ -1,0 +1,13 @@
+{
+  "audience": "Владелец малого бизнеса",
+  "brief_id": "FML-BRIEF-DEMO-001",
+  "forbidden_elements": ["логотипы третьих лиц", "персональные данные"],
+  "height": 768,
+  "palette": ["#182848", "#4B6CB7", "#F2C14E"],
+  "product_type": "social_card",
+  "purpose": "Демонстрация производства изображения по критериям",
+  "required_elements": ["заголовок", "контрастный центр"],
+  "style": "технологичный минимализм",
+  "text": "FATHER Creative Factory",
+  "width": 1024
+}
