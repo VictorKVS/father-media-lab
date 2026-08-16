@@ -1,0 +1,54 @@
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+credentials*.json
+secrets/
+private/
+
+# Model weights
+*.safetensors
+*.ckpt
+*.pt
+*.pth
+*.bin
+*.gguf
+*.onnx
+*.engine
+*.tflite
+*.h5
+*.keras
+models/**
+!models/README.md
+!configs/models.example.yaml
+
+# Generated and client material
+output/
+outputs/
+generated/
+runs/
+logs/
+client-data/
+private-assets/
+
+# Python and tools
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+build/
+dist/
+*.egg-info/
+
+# Editors and OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
