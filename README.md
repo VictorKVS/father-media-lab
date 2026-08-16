@@ -64,6 +64,18 @@ python -m unittest discover -s tests -v
 
 The initial package intentionally performs no model download and no remote generation.
 
+### Offline criteria prototype
+
+```powershell
+python -m father_media_lab prototype `
+  --brief examples/briefs/criteria-image-min.json `
+  --output local-runs/demo-001
+```
+
+The command validates blocking criteria and creates `prototype.svg`,
+`scorecard.json` and `passport.json`. The SVG is a deterministic contract proof,
+not an AI-generated artwork. `local-runs/` is excluded from Git.
+
 ## Documentation
 
 - [Product passport](docs/product-passport.md)
